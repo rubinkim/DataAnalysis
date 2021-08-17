@@ -1,0 +1,55 @@
+1. Web Server <--> Web Client / GET, POST
+2. HTML5, CSS3, JavaScript
+3. HTML  구조 - 반복적인 내용
+	<ul>
+                    <li>        </li>
+                    <li>        </li>
+              </ul>
+              <table>
+	       <tr>table의 한 줄</tr>
+                    <tr>..........................</tr>
+4. CSS Selector
+	id, class
+
+5. Web 개발
+
+Java - JSP(client), Apache Tomcat(server)
+Python - Django, Flask
+NodeJS : JavaScript를 Server mode로 돌린다 Express
+
+IP : Host를 구분해주는것 (IP Address)
+TCP : 다양한 프로그램을 구분해주는 것 (TCP port)
+
+React : 바뀐 부분만 보내준다
+Rendering : HTML로 화면에 뿌려준다
+
+table, tr
+ul, li
+p
+form
+iframe
+div, span - id, class를 찾는다
+
+css는 select로 찾는다 span이 selector
+
+<div id="name" class="warning">F</div>  .warning  class가 warning이구나 div.warning도 사용한다
+
+<div class="warning abc xyz">F</div>  .warning.abc.xyz
+
+<span class="warning">  
+
+id Selector는 주로 JavaScript(unique)  class는 주로 CSS(multi)
+#name 또는 div#name으로 id를 찾는다
+
+table > tr 2개 이상의 selector조합  -부모 자식
+table tr  - 자손
+table, tr - 동격
+
+tr.list ==> 50
+table.list-wrap tr.list
+
+right click copy xpath
+	copy full xpath
+	copy selector
+
+https://docs.google.com/spreadsheets/d/1TvzkDV0MJlNrPWo_gm7WnTRWWtrMU9KjltDyikSPEJE/edit#gid=49543227
