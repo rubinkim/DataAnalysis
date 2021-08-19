@@ -9,6 +9,7 @@ guideSearchApi/
 
 # C extensions
 *.so
+password.txt
 
 # Distribution / packaging
 .Python
